@@ -20,9 +20,41 @@
 }
 .divception {
     font-size: medium;
-    position: relative;
+    position: static;
+}
+.parent {
+    flex-direction: column;
+    width: 100%;
+    border:2px solid;
+    margin: 60px;
+    padding:20px;
+    display: flex;
+    background-color: aqua;
+    justify-content:center;
+    align-items: center;
+    gap: 40px;
+    
+}
+.child {
+ border:2px solid;
+    margin: 10px;
+    text-align: center;
+    height:10px;
+    padding:20px;
+    width:100px;
+    background-color: aqua;
+}
+.child:nth-last-child(even) {
+width: 40px;
+height:40px;
 }
 
-
-
+@media screen and (min-width: 481px) {
+    .parent {
+    border:2px solid;
+    background-color: rgb(255, 94, 0);
+    flex-direction: row;
+    
+}
+.
 
