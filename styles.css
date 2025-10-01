@@ -9,7 +9,7 @@
     border: 2px solid;
     height: 20px;
     text-decoration:line-through;
-    //text-transform:uppercase; /* es para ignorar una linea o multilinea*/
+    /*text-transform:uppercase; /* es para ignorar una linea o multilinea*/
 }
 .prueba2 {
     font-weight: bold;
@@ -56,5 +56,4 @@ height:40px;
     flex-direction: row;
     
 }
-.
-
+}
